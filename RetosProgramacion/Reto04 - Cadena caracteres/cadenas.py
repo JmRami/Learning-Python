@@ -33,4 +33,23 @@ class Cadenas:
     def __unir_cadenas__(self, lista):
         return("".join(lista))
     
-        
+    def __a_mayusculas__(self,cadena):
+        return(cadena.upper())    
+    
+    def __a_minusculas__(self,cadena):
+        return(cadena.lower())    
+    
+    def __es_numerico__(self,cadena):
+        return(cadena.isdigit())
+    
+    def __es_alfabetico__(self,cadena):
+        return(cadena.isalpha())
+    
+    def __es_palindromo__(Self,cadena):
+        return(cadena == cadena[::-1])
+    
+    def __es_anagrama__(self,cadena1, cadena2):
+        return(sorted(cadena1)==sorted(cadena2))
+    
+    def __es_isograma__(self,cadena):
+        return(len(cadena.upper())==len(set(cadena.upper())))

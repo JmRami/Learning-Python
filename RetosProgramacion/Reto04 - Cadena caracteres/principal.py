@@ -77,4 +77,24 @@ print (lista)
 #Unir elementos de una lista en una cadena
 print (cad.__unir_cadenas__(["1", "2", "3" ]))
 
-#Cambiar 
+#cadena a Mayusculas
+print (cad.__a_mayusculas__("hola mundo"))
+
+#cadena a minusculas
+print (cad.__a_minusculas__("HOLA MUNDO 123"))
+
+#es numerico
+print (cad.__es_numerico__("123456"))
+print (cad.__es_alfabetico__("abcde"))
+
+#es palindromo
+print (cad.__es_palindromo__("radar"))
+
+#es anagrama
+print (cad.__es_anagrama__("roma", "amor"))
+
+#es isograma
+print (cad.__es_isograma__("murcielago")) 
+print (cad.__es_isograma__("Mm")) # se ha pasado a upper para que no consiere 
+
+print (set("Murcielago"))
